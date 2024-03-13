@@ -45,13 +45,13 @@
         </select>
 
         <label>Tem entrada?</label>
-        <select id="tipo">
-            <option value="2">Sim</option>
+        <select id="tipo" onchange="opcao()">
             <option value="1">Não</option>
+            <option value="2">Sim</option>
         </select>
 
         <label>Valor entrada:</label>
-        <input id="entrada" type="number">
+        <input id="entrada" type="number" disabled>
 
         <button onclick="calcular()">Calcular</button>
 

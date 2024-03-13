@@ -1,3 +1,13 @@
+function opcao() {
+    var valorTipo = tipo.value;
+    if (valorTipo == 1) {
+        document.getElementById("entrada").disabled = true;
+    }
+    if (valorTipo == 2) {
+        document.getElementById("entrada").disabled = false;
+    }
+}
+
 function calcular() {
     var valorProduto = parseFloat(produto.value);
     var valorParcela = parseInt(parcela.value);
