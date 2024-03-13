@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <label>Valor produto</label>
+    <input id="produto" type="number">
+
+    <label>Parecelas</label>
+    <select id="parcela">
+        <option value="1">1x</option>
+        <option value="2">2x</option>
+        <option value="3">3x</option>
+        <option value="4">4x</option>
+        <option value="5">5x</option>
+        <option value="6">6x</option>
+
+        <option value="12">12x</option>
+
+    </select>
+
+    <label>Tem entrada?</label>
+    <select id="tipo">
+        <option value="1">Não</option>
+        <option value="2">Sim</option>
+    </select>
+
+    <label>Valor entrada</label>
+    <input id="entrada" type="number">
+
+    <button onclick="calcular()">Calcular</button>
+
+    <p id="resultado">Resultado:</p>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
