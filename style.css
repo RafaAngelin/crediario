@@ -1,0 +1,17 @@
+*{  
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial;
+}
+
+header{
+    background-color: #f0141c;
+    padding: 1%;
+}
+
+div{
+    margin: 2%;
+}

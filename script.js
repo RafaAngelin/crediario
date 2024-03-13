@@ -125,6 +125,126 @@ function calcular() {
         valorResultado = valorResultado / valorParcela;
     }
 
+    if (valorParcela == 13 && valorTipo == 1) {
+        valorResultado = valorProduto * 0.1197;
+    }
+    if (valorParcela == 13 && valorTipo == 2) {
+        valorResultado = (valorProduto * 0.1069);
+        valorResultado = valorResultado * (valorParcela + 1)
+        valorResultado = valorResultado - valorEntrada;
+        valorResultado = valorResultado / valorParcela;
+    }
+
+    if (valorParcela == 14 && valorTipo == 1) {
+        valorResultado = valorProduto * 0.1143;
+    }
+    if (valorParcela == 14 && valorTipo == 2) {
+        valorResultado = (valorProduto * 0.1026);
+        valorResultado = valorResultado * (valorParcela + 1)
+        valorResultado = valorResultado - valorEntrada;
+        valorResultado = valorResultado / valorParcela;
+    }
+
+    if (valorParcela == 15 && valorTipo == 1) {
+        valorResultado = valorProduto * 0.1098;
+    }
+    if (valorParcela == 15 && valorTipo == 2) {
+        valorResultado = (valorProduto * 0.0989);
+        valorResultado = valorResultado * (valorParcela + 1)
+        valorResultado = valorResultado - valorEntrada;
+        valorResultado = valorResultado / valorParcela;
+    }
+
+    if (valorParcela == 16 && valorTipo == 1) {
+        valorResultado = valorProduto * 0.1130;
+    }
+    if (valorParcela == 16 && valorTipo == 2) {
+        valorResultado = (valorProduto * 0.1015);
+        valorResultado = valorResultado * (valorParcela + 1)
+        valorResultado = valorResultado - valorEntrada;
+        valorResultado = valorResultado / valorParcela;
+    }
+
+    if (valorParcela == 17 && valorTipo == 1) {
+        valorResultado = valorProduto * 0.1096;
+    }
+    if (valorParcela == 17 && valorTipo == 2) {
+        valorResultado = (valorProduto * 0.0988);
+        valorResultado = valorResultado * (valorParcela + 1)
+        valorResultado = valorResultado - valorEntrada;
+        valorResultado = valorResultado / valorParcela;
+    }
+
+    if (valorParcela == 18 && valorTipo == 1) {
+        valorResultado = valorProduto * 0.1067;
+    }
+    if (valorParcela == 18 && valorTipo == 2) {
+        valorResultado = (valorProduto * 0.0964);
+        valorResultado = valorResultado * (valorParcela + 1)
+        valorResultado = valorResultado - valorEntrada;
+        valorResultado = valorResultado / valorParcela;
+    }
+
+    if (valorParcela == 19 && valorTipo == 1) {
+        valorResultado = valorProduto * 0.1041;
+    }
+    if (valorParcela == 19 && valorTipo == 2) {
+        valorResultado = (valorProduto * 0.0943);
+        valorResultado = valorResultado * (valorParcela + 1)
+        valorResultado = valorResultado - valorEntrada;
+        valorResultado = valorResultado / valorParcela;
+    }
+
+    if (valorParcela == 20 && valorTipo == 1) {
+        valorResultado = valorProduto * 0.1019;
+    }
+    if (valorParcela == 20 && valorTipo == 2) {
+        valorResultado = (valorProduto * 0.0924);
+        valorResultado = valorResultado * (valorParcela + 1)
+        valorResultado = valorResultado - valorEntrada;
+        valorResultado = valorResultado / valorParcela;
+    }
+
+    if (valorParcela == 21 && valorTipo == 1) {
+        valorResultado = valorProduto * 0.0998;
+    }
+    if (valorParcela == 21 && valorTipo == 2) {
+        valorResultado = (valorProduto * 0.0908);
+        valorResultado = valorResultado * (valorParcela + 1)
+        valorResultado = valorResultado - valorEntrada;
+        valorResultado = valorResultado / valorParcela;
+    }
+
+    if (valorParcela == 22 && valorTipo == 1) {
+        valorResultado = valorProduto * 0.0980;
+    }
+    if (valorParcela == 22 && valorTipo == 2) {
+        valorResultado = (valorProduto * 0.0893);
+        valorResultado = valorResultado * (valorParcela + 1)
+        valorResultado = valorResultado - valorEntrada;
+        valorResultado = valorResultado / valorParcela;
+    }
+
+    if (valorParcela == 23 && valorTipo == 1) {
+        valorResultado = valorProduto * 0.0964;
+    }
+    if (valorParcela == 23 && valorTipo == 2) {
+        valorResultado = (valorProduto * 0.0879);
+        valorResultado = valorResultado * (valorParcela + 1)
+        valorResultado = valorResultado - valorEntrada;
+        valorResultado = valorResultado / valorParcela;
+    }
+
+    if (valorParcela == 24 && valorTipo == 1) {
+        valorResultado = valorProduto * 0.0950;
+    }
+    if (valorParcela == 24 && valorTipo == 2) {
+        valorResultado = (valorProduto * 0.0867);
+        valorResultado = valorResultado * (valorParcela + 1)
+        valorResultado = valorResultado - valorEntrada;
+        valorResultado = valorResultado / valorParcela;
+    }
+
     resultado.innerHTML = "Parcela: " + valorResultado.toFixed(2);
     if (valorTipo == 1){
         total.innerHTML = "Valor total: " + (valorResultado*valorParcela).toFixed(2);
