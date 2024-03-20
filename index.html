@@ -13,8 +13,10 @@
         <img src="damazzini.webp" height="60">
     </header>
     <div class="box">
+        <br class="quebra">
         <label>Valor produto:</label>
-        <input id="produto" type="number"><br class="quebra">
+        <input id="produto" type="number">
+        <br class="quebra">
 
         <label>Parecelas:</label>
         <select id="parcela">
@@ -42,16 +44,19 @@
             <option value="22">22x</option>
             <option value="23">23x</option>
             <option value="24">24x</option>
-        </select><br class="quebra">
+        </select>
+        <br class="quebra">
 
         <label>Tem entrada?</label>
         <select id="tipo" onchange="opcao()">
             <option value="1">Não</option>
             <option value="2">Sim</option>
-        </select><br class="quebra">
+        </select>
+        <br class="quebra">
 
         <label>Valor entrada:</label>
-        <input id="entrada" type="number" disabled><br class="quebra">
+        <input id="entrada" type="number" disabled>
+        <br class="quebra">
 
         <button onclick="calcular()">Calcular</button>
 
