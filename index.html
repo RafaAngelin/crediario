@@ -12,7 +12,7 @@
     <header>
         <img src="damazzini.webp" height="60">
     </header>
-    <div>
+    <div class="box">
         <label>Valor produto:</label>
         <input id="produto" type="number">
 
@@ -46,19 +46,21 @@
 
         <label>Tem entrada?</label>
         <select id="tipo" onchange="opcao()">
-            <option value="2">Sim</option>
             <option value="1">Não</option>
+            <option value="2">Sim</option>
         </select>
 
         <label>Valor entrada:</label>
-        <input id="entrada" type="number">
+        <input id="entrada" type="number" disabled>
 
         <button onclick="calcular()">Calcular</button>
 
         <br>
         <br>
-
+    </div>
+    <div class="box">
         <p id="resultado">Parcela:</p>
+        <br>
         <p id="total">Valor total:</p>
 
         <script src="script.js"></script>
