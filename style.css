@@ -41,3 +41,11 @@ button{
 button:hover{
     background-color: #3ba756;
 }
+
+@media (max-width: 768px) {
+    input,
+    select{
+        margin-bottom: 4%;
+    }
+    
+}
